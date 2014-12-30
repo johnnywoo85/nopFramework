@@ -231,7 +231,7 @@ namespace Nop.Web.Controllers
 
         //footer
         [ChildActionOnly]
-        public ActionResult Footer()
+        public ActionResult Footer() // Here is how to set up the footer information.
         {
             var model = new FooterModel()
             {
